@@ -22,49 +22,14 @@
 
 - 🚀 **零依赖 (Zero Dependencies)** - 自带纯原生 Python 编写的 ASAR 解析与打包算法，无需安装 Node.js，无需 npm，无需 `asar` 命令行工具
 - 🎯 **智能文本匹配** - 采用底层 `indexOf` 碎片化重组与 CSS 伪类多态匹配策略，完美绕过 Webpack 代码分割导致的汉化失效问题
-- ⚡ **一键部署** - 执行补丁后自动清理进程并重启软件，实现"敲下回车 → 享受中文"的无缝体验
 - 🛡️ **纯净可逆** - 还原脚本可彻底抹除所有汉化残留，确保随时能"无损回滚"至纯血官方英文版
-- 🧭 **全动态跨平台寻址** - 智能识别系统架构，原生支持 Windows 及 macOS 环境下的路径寻址与进程管理
 
-## 📦 下载与安装
-
-### 方式一：独立免安装版 (Windows / macOS) ⭐ 推荐普通用户
-
-**下载：** [前往 Release 下载对应系统版本](https://github.com/MIMICTE/Antigravity-zh-CN/releases/latest) (支持 Windows x64, macOS Intel/M芯片)
-
-**特点：**
-- ✅ 开箱即用，**无需安装 Python** 环境
-- ✅ 原生级体验，一键执行，自动识别路径并重启
 
 **【Windows 用户使用方法】**
-1. 下载 `Antigravity-zh-CN-v2.33.0-windows-x64.zip` 并解压
-2. 双击运行 `Antigravity-Patcher.exe` 开始汉化 (还原请双击 `Restore.exe`)
-
-**【macOS 用户使用方法】**
-1. 下载对应的 macOS 压缩包（`arm64`为M系列芯片，`x86_64`为Intel芯片）并解压
-2. 打开终端 (Terminal)，进入解压目录，赋予执行权限并运行：
-   ```bash
-   chmod +x Antigravity-Patcher-macOS-*
-   ./Antigravity-Patcher-macOS-*
-   ```
-> 🍎 **Mac 用户注意**：若系统提示“无法打开，因为无法验证开发者”，请前往「系统设置 -> 隐私与安全性」，向下滑动并点击「仍要打开」。或者在终端执行 `xattr -cr Antigravity-Patcher-macOS-*` 即可解除限制。
+1. 下载 `Antigravity-zh-CN-v2.33.0.zip` 并解压
+2. 双击运行 `一键汉化.bat` 执行汉化（双击 `一键还原.bat` 还原）。
 
 ---
-
-### 方式二：从源码安装 ⭐ 推荐开发者
-
-**克隆仓库：**
-```bash
-git clone https://github.com/MIMICTE/Antigravity-zh-CN.git
-cd Antigravity-zh-CN
-python Antigravity-Patcher.py
-```
-
-> 💡 Windows 用户也可直接双击 `一键汉化.bat` 执行汉化（双击 `一键还原.bat` 还原）。
-
-**或下载源码压缩包：**
-
-从 [Releases 页面](https://github.com/MIMICTE/Antigravity-zh-CN/releases/latest) 下载 `Source code (zip)` 或 `Source code (tar.gz)`，解压后运行 `Antigravity-Patcher.py`。
 
 ## 💡 技术原理
 
