@@ -2,7 +2,6 @@
 
 <div align="center">
 
-**🌏 [English](README_EN.md) | 简体中文**
 
 一个为 Google Antigravity 桌面端提供完整中文界面的开源汉化补丁
 
@@ -26,6 +25,7 @@
 - 🎯 **智能文本匹配** - 采用底层 `indexOf` 碎片化重组与 CSS 伪类多态匹配策略，完美绕过 Webpack 代码分割导致的汉化失效问题
 - 🛡️ **纯净可逆** - 还原脚本可彻底抹除所有汉化残留，确保随时能"无损回滚"至纯血官方英文版
 
+---
 
 **【Windows 用户使用方法】**
 1. 下载 `Antigravity-zh-CN-v2.33.0.zip` 并解压
