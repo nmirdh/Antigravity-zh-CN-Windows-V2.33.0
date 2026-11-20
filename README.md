@@ -28,7 +28,7 @@
 ---
 
 **【Windows 用户使用方法】**
-1. 下载 `Antigravity-zh-CN-v2.33.0.zip` 并解压
+1. 下载 `Antigravity-zh-CN-Windows-V2.33.0.zip` 并解压
 2. 双击运行 `一键汉化.bat` 执行汉化（双击 `一键还原.bat` 还原）。
 
 ---
